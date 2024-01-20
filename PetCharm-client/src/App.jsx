@@ -1,5 +1,4 @@
 
-import './App.css'
 
 function App() {
   
@@ -7,7 +6,7 @@ function App() {
   return (
     <>
       
-      <h1>Pet Charm</h1>
+      <h1 className="text-xl font-bold text-[#fa52a0]">Pet Charm</h1>
       
     </>
   )
