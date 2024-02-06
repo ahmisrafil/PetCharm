@@ -1,0 +1,43 @@
+[
+    {
+      "id": "1",
+      "name": "Cozy Pet Bed",
+      "details": "Soft and comfortable pet bed for your furry friend.",
+      "image": "https://example.com/cozy_pet_bed.jpg",
+      "category": "Beds & Furniture",
+      "price": 29.99
+    },
+    {
+      "id": "2",
+      "name": "Stylish Dog Collar",
+      "details": "Fashionable collar with adjustable strap for your dog.",
+      "image": "https://example.com/stylish_dog_collar.jpg",
+      "category": "Collars & Leashes",
+      "price": 14.99
+    },
+    {
+      "id": "3",
+      "name": "Interactive Cat Toy",
+      "details": "Keep your cat entertained for hours with this interactive toy.",
+      "image": "https://example.com/interactive_cat_toy.jpg",
+      "category": "Toys",
+      "price": 9.99
+    },
+    {
+      "id": "4",
+      "name": "Warm Pet Sweater",
+      "details": "Keep your pet cozy and stylish with this warm sweater.",
+      "image": "https://example.com/warm_pet_sweater.jpg",
+      "category": "Apparel",
+      "price": 19.99
+    },
+    {
+      "id": "5",
+      "name": "Pet Grooming Kit",
+      "details": "Complete grooming kit for your pet's grooming needs.",
+      "image": "https://example.com/pet_grooming_kit.jpg",
+      "category": "Grooming",
+      "price": 34.99
+    }
+  ]
+  

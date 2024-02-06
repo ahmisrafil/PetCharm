@@ -1,12 +1,13 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { BsChevronDown } from "react-icons/bs";
 
 const NavBar = () => {
     const listItems = <>
-        <li><a>Home</a></li>
-        <li><a>Shop</a></li>
-        <li><a><div className="dropdown dropdown-hover">
-            <div tabIndex={0} role="button" >Cats</div>
+        <li className='hover:text-red-500'><a>Home</a></li>
+        <li className='hover:text-red-500'><a>Shop</a></li>
+        <li ><a><div className="dropdown dropdown-hover">
+            <div tabIndex={0} role="button" className='hover:text-red-500 flex flex-row items-center gap-1'>Cats <BsChevronDown/></div>
             <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
                 <li><a>Cats Dry Food</a></li>
                 <li><a>Cats Wet Food</a></li>
@@ -15,8 +16,8 @@ const NavBar = () => {
                 <li><a>Cats Fashion</a></li>
             </ul>
         </div></a></li>
-        <li><a><div className="dropdown dropdown-hover">
-            <div tabIndex={0} role="button" >Dogs</div>
+        <li><a><div className="dropdown dropdown-hover ">
+            <div tabIndex={0} role="button" className='hover:text-red-500 flex flex-row items-center gap-1'>Dogs<BsChevronDown/></div>
             <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
                 <li><a>Dogs Dry Food</a></li>
                 <li><a>Dogs Wet Food</a></li>
@@ -26,14 +27,14 @@ const NavBar = () => {
             </ul>
         </div></a></li>
         <li><a><div className="dropdown dropdown-hover">
-            <div tabIndex={0} role="button" >Birds</div>
+            <div tabIndex={0} role="button" className='hover:text-red-500 flex flex-row items-center gap-1'>Birds<BsChevronDown/></div>
             <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
                 <li><a>Birds Food & Health</a></li>
                 <li><a>Birds Toys & Accessories</a></li>
             </ul>
         </div></a></li>
-        <li><a>Contact</a></li>
-        <li><a>Offers</a></li>
+        <li className='hover:text-red-500'><a>Contact</a></li>
+        <li className='hover:text-red-500'><a>Offers</a></li>
 
 
     </>
