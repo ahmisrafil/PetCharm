@@ -51,6 +51,7 @@ const NavBar = () => {
                     </ul>
                 </div>
                 <NavLink to='/' className="text-xl"><img src="/src/assets/icons/logo.png" className='h-16 mb-4' alt="" /></NavLink>
+
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
