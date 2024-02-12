@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { BsChevronDown } from "react-icons/bs";
 
 const NavBar = () => {
@@ -34,7 +34,7 @@ const NavBar = () => {
             </ul>
         </div></a></li>
         <li className='hover:text-red-500'><a>Contact</a></li>
-        <li className='hover:text-red-500'><a>Offers</a></li>
+        <li className='hover:text-red-500'><Link to="offers">Offers</Link></li>
 
 
     </>

@@ -1,43 +1,99 @@
 [
     {
       "id": "1",
-      "name": "Cozy Pet Bed",
-      "details": "Soft and comfortable pet bed for your furry friend.",
-      "image": "https://example.com/cozy_pet_bed.jpg",
-      "category": "Beds & Furniture",
-      "price": 29.99
+      "name": "Meow Bentonite Cat Litter",
+      "details": "The cat is made of highly absorbent and non – toxic betonites clay. It lets you scoop odors away, leaving your litter box clean and fresh.",
+      "image": "https://i0.wp.com/www.poshaprani.com/wp-content/uploads/2023/11/me-app.jpg?fit=1280%2C1500&ssl=1",
+      "category": "Cats",
+      "subcategory": "Cat Litters",
+      "price": 270.00
     },
     {
       "id": "2",
-      "name": "Stylish Dog Collar",
-      "details": "Fashionable collar with adjustable strap for your dog.",
-      "image": "https://example.com/stylish_dog_collar.jpg",
-      "category": "Collars & Leashes",
-      "price": 14.99
+      "name": "Me-O Canned Cat Food ",
+      "details": "Our Me-O Wet food features real meat and real fish, delivering a variety of textures and flavors that cats adore.",
+      "image": "https://i0.wp.com/www.poshaprani.com/wp-content/uploads/2019/06/me-o-canned-sardine-in-prawn-jelly-400-gm.png?fit=1280%2C1500&ssl=1",
+      "category": "Cats",
+      "subcategory": "Cats Health Supplements",
+      "price": 160.00
     },
     {
       "id": "3",
-      "name": "Interactive Cat Toy",
-      "details": "Keep your cat entertained for hours with this interactive toy.",
-      "image": "https://example.com/interactive_cat_toy.jpg",
-      "category": "Toys",
-      "price": 9.99
+      "name": "Drools Puppy Chicken And Egg",
+      "details": "Drools chicken and egg is specially formulated for growing puppies and adults. It contains real chicken as number 1.",
+      "image": "https://i0.wp.com/www.poshaprani.com/wp-content/uploads/2019/09/Chicken-Egg-10kg-Puppy.png?fit=1280%2C1500&ssl=1",
+      "category": "Dogs",
+      "subcategory": "Dog Dry Food",
+      "price":  450.00,
+      "tag" : "popular"
     },
     {
       "id": "4",
-      "name": "Warm Pet Sweater",
-      "details": "Keep your pet cozy and stylish with this warm sweater.",
-      "image": "https://example.com/warm_pet_sweater.jpg",
-      "category": "Apparel",
-      "price": 19.99
+      "name": "Daily Bone Dog Treat (20gm)",
+      "details": "Tastes Like A Treat, Works Like A Vitamin; Real Chicken Is The No.1 Ingredient Helps Support.Immune System.",
+      "image": "https://i0.wp.com/www.poshaprani.com/wp-content/uploads/2019/07/Daily-Bone-Dog-Treat-20gm.png?fit=1280%2C1500&ssl=1",
+      "category": "Dogs",
+      "subcategory": "Dogs Health Supplements",
+      "price": 100.00,
+      "tag" : "popular"
     },
     {
       "id": "5",
-      "name": "Pet Grooming Kit",
-      "details": "Complete grooming kit for your pet's grooming needs.",
-      "image": "https://example.com/pet_grooming_kit.jpg",
-      "category": "Grooming",
-      "price": 34.99
+      "name": "SmartHeart Mynah Bird Food (1kg)",
+      "details": "Deli Nature Start+ High Protein Hand Rearing Formula is suitable for all bird types with a high need for proteins.",
+      "image": "https://i0.wp.com/www.poshaprani.com/wp-content/uploads/2019/06/smartheart-mynah-bird-food-850gm.png?fit=1280%2C1500&ssl=1",
+      "category": "Birds",
+      "subcategory": "Bird Food & Health",
+      "price": 300.00
+    },
+    {
+      "id": "6",
+      "name": "High Protein Hand Rearing Formula 500gm",
+      "details": "Deli Nature Start+ High Protein Hand Rearing Formula is suitable for all bird types with a high need for proteins such as lovebirds.",
+      "image": "https://i0.wp.com/www.poshaprani.com/wp-content/uploads/2019/08/deli-nature-start-high-protein-hand-rearing-formula-500gm.png?fit=1280%2C1500&ssl=1",
+      "category": "Birds",
+      "subcategory": "Bird Food & Health",
+      "price": 300.00
+    },
+    {
+      "id": "7",
+      "name": "Harness Belt Strap Collar Leash ",
+      "details": "Adjustable Pet Cat Kitten Belt Collar Leash Harness Safety Strap Traction Rope. Cat harness attached with a matching leash.",
+      "image": "https://i0.wp.com/www.poshaprani.com/wp-content/uploads/2019/09/Harness-Belt-Strap-Collar-Leash.png?fit=1280%2C1500&ssl=1",
+      "category": "Cats",
+      "subcategory": "Cats Fashion",
+      "price": 300.00,
+      "tag" : "popular"
+    },
+    {
+      "id": "8",
+      "name": "Dumbbell Dog Toy",
+      "details": "Your dog needs fun toy with an erratic bounce. The toys bounce a squeak leading to ultimate games of fetch!",
+      "image": "https://i0.wp.com/www.poshaprani.com/wp-content/uploads/2019/09/Dumbbell-Dog-Toy.png?fit=1280%2C1500&ssl=1",
+      "category": "Dogs",
+      "subcategory": "Dogs Fashion",
+      "price": 300.00
+    },
+    {
+      "id": "9",
+      "name": "Dumbbell Cat Toy ",
+      "details": "Adjustable Pet Cat Kitten Belt Collar Leash Harness Safety Strap Traction Rope. Cat harness attached with a matching leash.",
+      "image": "https://i0.wp.com/www.poshaprani.com/wp-content/uploads/2019/09/Dumbbell-Dog-Toy.png?fit=1280%2C1500&ssl=1",
+      "category": "Cats",
+      "subcategory": "Cats Fashion",
+      "price": 160.00
+      
+    },
+    {
+      "id": "10",
+      "name": "Dumbbell Cat Toy ",
+      "details": "Adjustable Pet Cat Kitten Belt Collar Leash Harness Safety Strap Traction Rope. Cat harness attached with a matching leash.",
+      "image": "https://i0.wp.com/www.poshaprani.com/wp-content/uploads/2019/09/Dumbbell-Dog-Toy.png?fit=1280%2C1500&ssl=1",
+      "category": "Cats",
+      "subcategory": "Cats Fashion",
+      "price": 160.00,
+      "tag" : "popular"
     }
+    
   ]
   
