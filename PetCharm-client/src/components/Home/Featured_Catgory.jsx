@@ -8,7 +8,7 @@ import img6 from '../../assets/category/dog_food.webp'
 import SharedTitle from '../SharedTitle';
 const Featured_Catgory = () => {
     return (
-        <div className='mx-20 my-10'>
+        <div className='mx-32 my-20'>
             {/* <h3 className='text-3xl font-bold mb-10'>Featured Categories</h3> */}
             <SharedTitle 
             heading={"Featured Categories"}

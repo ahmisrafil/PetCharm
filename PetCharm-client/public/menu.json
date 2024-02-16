@@ -6,7 +6,8 @@
       "image": "https://i0.wp.com/www.poshaprani.com/wp-content/uploads/2023/11/me-app.jpg?fit=1280%2C1500&ssl=1",
       "category": "Cats",
       "subcategory": "Cat Litters",
-      "price": 270.00
+      "price": 270.00,
+      "offer" : "10"
     },
     {
       "id": "2",
@@ -15,7 +16,8 @@
       "image": "https://i0.wp.com/www.poshaprani.com/wp-content/uploads/2019/06/me-o-canned-sardine-in-prawn-jelly-400-gm.png?fit=1280%2C1500&ssl=1",
       "category": "Cats",
       "subcategory": "Cats Health Supplements",
-      "price": 160.00
+      "price": 160.00,
+      "offer" : "25"
     },
     {
       "id": "3",
@@ -25,7 +27,8 @@
       "category": "Dogs",
       "subcategory": "Dog Dry Food",
       "price":  450.00,
-      "tag" : "popular"
+      "tag" : "popular",
+      "offer" : "10"
     },
     {
       "id": "4",
@@ -35,7 +38,8 @@
       "category": "Dogs",
       "subcategory": "Dogs Health Supplements",
       "price": 100.00,
-      "tag" : "popular"
+      "tag" : "popular",
+      "offer" : "18"
     },
     {
       "id": "5",
@@ -44,7 +48,18 @@
       "image": "https://i0.wp.com/www.poshaprani.com/wp-content/uploads/2019/06/smartheart-mynah-bird-food-850gm.png?fit=1280%2C1500&ssl=1",
       "category": "Birds",
       "subcategory": "Bird Food & Health",
-      "price": 300.00
+      "price": 300.00,
+      "offer" : "15"
+    },
+    {
+      "id": "11",
+      "name": "Cat Litter",
+      "details": "The cat is made of highly absorbent and non – toxic betonites clay. It lets you scoop odors away, leaving your litter box clean and fresh.",
+      "image": "https://i0.wp.com/www.poshaprani.com/wp-content/uploads/2019/08/deli-nature-start-high-protein-hand-rearing-formula-500gm.png?fit=1280%2C1500&ssl=1",
+      "category": "Cats",
+      "subcategory": "Cat Litters",
+      "price": 270.00,
+      "offer" : "10"
     },
     {
       "id": "6",
@@ -53,7 +68,8 @@
       "image": "https://i0.wp.com/www.poshaprani.com/wp-content/uploads/2019/08/deli-nature-start-high-protein-hand-rearing-formula-500gm.png?fit=1280%2C1500&ssl=1",
       "category": "Birds",
       "subcategory": "Bird Food & Health",
-      "price": 300.00
+      "price": 300.00,
+      "offer" : "20"
     },
     {
       "id": "7",
@@ -63,7 +79,8 @@
       "category": "Cats",
       "subcategory": "Cats Fashion",
       "price": 300.00,
-      "tag" : "popular"
+      "tag" : "popular",
+      "offer" : "10"
     },
     {
       "id": "8",
@@ -72,7 +89,8 @@
       "image": "https://i0.wp.com/www.poshaprani.com/wp-content/uploads/2019/09/Dumbbell-Dog-Toy.png?fit=1280%2C1500&ssl=1",
       "category": "Dogs",
       "subcategory": "Dogs Fashion",
-      "price": 300.00
+      "price": 300.00,
+      "offer" : "25"
     },
     {
       "id": "9",
@@ -81,18 +99,20 @@
       "image": "https://i0.wp.com/www.poshaprani.com/wp-content/uploads/2019/09/Dumbbell-Dog-Toy.png?fit=1280%2C1500&ssl=1",
       "category": "Cats",
       "subcategory": "Cats Fashion",
-      "price": 160.00
+      "price": 160.00,
+      "offer" : "20"
       
     },
     {
       "id": "10",
       "name": "Dumbbell Cat Toy ",
       "details": "Adjustable Pet Cat Kitten Belt Collar Leash Harness Safety Strap Traction Rope. Cat harness attached with a matching leash.",
-      "image": "https://i0.wp.com/www.poshaprani.com/wp-content/uploads/2019/09/Dumbbell-Dog-Toy.png?fit=1280%2C1500&ssl=1",
+      "image": "https://i0.wp.com/www.poshaprani.com/wp-content/uploads/2019/06/smartheart-mynah-bird-food-850gm.png?fit=1280%2C1500&ssl=1",
       "category": "Cats",
       "subcategory": "Cats Fashion",
       "price": 160.00,
-      "tag" : "popular"
+      "tag" : "popular",
+      "offer" : "20"
     }
     
   ]

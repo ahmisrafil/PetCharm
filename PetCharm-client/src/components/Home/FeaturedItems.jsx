@@ -14,7 +14,7 @@ const FeaturedItems = () => {
     }, [])
     console.log(items);
     return (
-        <div className='mx-20 my-10'>
+        <div className='mx-32 my-20'>
             <SharedTitle
                 heading={"Featured Items"}
                 subHeading={"Explore"}
