@@ -4,7 +4,7 @@ import { BsChevronDown } from "react-icons/bs";
 
 const NavBar = () => {
     const listItems = <>
-        <li className='hover:text-red-500'><a>Home</a></li>
+        <li className='hover:text-red-500'><Link to='/'>Home</Link></li>
         <li className='hover:text-red-500'><a>Shop</a></li>
         <li ><a><div className="dropdown dropdown-hover">
             <div tabIndex={0} role="button" className='hover:text-red-500 flex flex-row items-center gap-1'>Cats <BsChevronDown/></div>
@@ -15,6 +15,7 @@ const NavBar = () => {
                 <li><a>Cats Health Supplements</a></li>
                 <li><a>Cats Fashion</a></li>
             </ul>
+            
         </div></a></li>
         <li><a><div className="dropdown dropdown-hover ">
             <div tabIndex={0} role="button" className='hover:text-red-500 flex flex-row items-center gap-1'>Dogs<BsChevronDown/></div>
