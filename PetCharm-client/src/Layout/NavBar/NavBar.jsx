@@ -1,11 +1,11 @@
-import React from 'react';
+
 import { Link, NavLink } from 'react-router-dom';
 import { BsChevronDown } from "react-icons/bs";
 
 const NavBar = () => {
     const listItems = <>
         <li className='hover:text-red-500'><Link to='/'>Home</Link></li>
-        <li className='hover:text-red-500'><a>Shop</a></li>
+        <li className='hover:text-red-500'><Link to='/shop'>Shop</Link></li>
         <li ><a><div className="dropdown dropdown-hover">
             <div tabIndex={0} role="button" className='hover:text-red-500 flex flex-row items-center gap-1'>Cats <BsChevronDown/></div>
             <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
