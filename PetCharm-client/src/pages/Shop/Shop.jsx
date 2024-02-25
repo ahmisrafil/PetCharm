@@ -7,6 +7,7 @@ import OfferCategory from "../Offers/OfferCategory/OfferCategory";
 import catsImg from '../../assets/category/cat_care.webp'
 import dogImg from '../../assets/category/dog_food.webp'
 import birdImg from '../../assets/category/parrot.webp'
+import MenuItem from "../../components/Shared/menuItem";
 
 
 const Shop = () => {
@@ -20,12 +21,7 @@ const Shop = () => {
                 <title>PetCharm | Shop</title>
             </Helmet>
             <div className='mt-20'>
-                <SharedTitle subHeading="Don't Miss" heading="Cat Items"></SharedTitle>
-                <OfferCategory items={cats} title="Cats" img={catsImg}></OfferCategory>
-                <SharedTitle subHeading="Don't Miss" heading="Dog Items"></SharedTitle>
-                <OfferCategory items={dogs} title="Dogs" img={dogImg}></OfferCategory>
-                <SharedTitle subHeading="Don't Miss" heading="Bird Items"></SharedTitle>
-                <OfferCategory items={birds} title="Birds" img={birdImg}></OfferCategory>
+               
             </div>
         </div>
     );
