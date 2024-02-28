@@ -1,28 +1,32 @@
 import { Helmet } from "react-helmet-async";
 import useMenu from "../../components/hooks/useMenu";
-import SharedTitle from "../../components/SharedTitle";
-import OfferCategory from "../Offers/OfferCategory/OfferCategory";
-
-
-import catsImg from '../../assets/category/cat_care.webp'
-import dogImg from '../../assets/category/dog_food.webp'
-import birdImg from '../../assets/category/parrot.webp'
-import MenuItem from "../../components/Shared/menuItem";
-
+import Cover from "../../components/Shared/Cover";
+import shopCover from '../../assets/banner/shop.jpg'
+import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
+import { useState } from "react";
 
 const Shop = () => {
     const [menu] = useMenu();
     const cats = menu.filter(item => item.category === 'Cats');
     const dogs = menu.filter(item => item.category === 'Dogs');
     const birds = menu.filter(item => item.category === 'Birds');
+    const [tabIndex, setTabIndex] = useState(0);
     return (
         <div className='mx-32'>
             <Helmet>
                 <title>PetCharm | Shop</title>
             </Helmet>
             <div className='mt-20'>
-               
+                <Cover img={shopCover} title={'Shop Pet Accessories'}></Cover>
             </div>
+            <Tabs defaultIndex={1} onSelect={(index) => console.log(index)}>
+                <TabList>
+                    <Tab>Title 1</Tab>
+                    <Tab>Title 2</Tab>
+                </TabList>
+                <TabPanel></TabPanel>
+                <TabPanel></TabPanel>
+            </Tabs>
         </div>
     );
 };

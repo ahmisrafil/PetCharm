@@ -8,6 +8,7 @@ import Home from "../pages/Home/Home/Home";
 import Offers from "../pages/Offers/Offers";
 import Shop from "../pages/Shop/Shop";
 import SignUp from "../pages/SignUp/SignUp";
+import Login from "../pages/Login/Login";
 
   export const router = createBrowserRouter([
     {
@@ -30,6 +31,10 @@ import SignUp from "../pages/SignUp/SignUp";
         {
           path: 'signup',
           element: <SignUp></SignUp>
+        },
+        {
+          path: 'login',
+          element: <Login></Login>
         },
 
       ]

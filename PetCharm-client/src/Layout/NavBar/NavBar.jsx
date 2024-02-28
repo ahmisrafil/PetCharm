@@ -1,6 +1,11 @@
 
 import { Link, NavLink } from 'react-router-dom';
 import { BsChevronDown } from "react-icons/bs";
+import img1 from '../../assets/icons/profile.png'
+import img2 from '../../assets/icons/fav.png'
+import img3 from '../../assets/icons/cart.png'
+
+
 
 const NavBar = () => {
     const listItems = <>
@@ -62,9 +67,9 @@ const NavBar = () => {
             </div>
             <div className="navbar-end">
                 <ul className='flex items-center justify-center'>
-                    <li><a><img src="/src/assets/icons/profile.png" alt="" className='h-8' /></a></li>
-                    <li><a><img src="/src/assets/icons/fav.png" alt="" className='h-8' /></a></li>
-                    <li><a><img src="/src/assets/icons/cart.png" alt="" className='h-8' /></a></li>
+                    <li><Link to='/login'><img src={img1} alt="" className='h-8' /></Link></li>
+                    <li><a><img src={img2} alt="" className='h-8' /></a></li>
+                    <li><a><img src={img3} alt="" className='h-8' /></a></li>
                 </ul>
             </div>
         </div>
