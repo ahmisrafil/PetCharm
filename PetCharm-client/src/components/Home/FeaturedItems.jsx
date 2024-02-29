@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import SharedTitle from '../SharedTitle';
-import MenuItem from '../Shared/menuItem';
+import MenuItem from '../Shared/MenuItem';
 
 const FeaturedItems = () => {
     const [items, setItems] = useState([]);
@@ -12,7 +12,7 @@ const FeaturedItems = () => {
                     setItems(popular);
                 })
     }, [])
-    console.log(items);
+    
     return (
         <div className='mx-32 my-20'>
             <SharedTitle

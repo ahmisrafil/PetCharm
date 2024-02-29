@@ -2,6 +2,7 @@ import React from 'react';
 
 import img1 from '../../assets/icons/banner-dog.png'
 import img2 from '../../assets/banner/banner2.png'
+import { Link } from 'react-router-dom';
 
 const Slider = () => {
     return (
@@ -30,7 +31,9 @@ const Slider = () => {
                             <p className='text-orange-300 font-bold'>SAVE 10-20% OFF</p>
                             <h3 className='text-6xl'>Best Destination <br />For <span className='text-orange-300'>Your Pets</span></h3>
                             <div>
+                                <Link to='shop'>
                                 <button className='btn btn-primary bg-orange-300 text-black border-none hover:text-white'>Shop Now</button>
+                                </Link>
                             </div>
                         </div>
 

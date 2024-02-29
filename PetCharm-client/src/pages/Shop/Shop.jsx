@@ -5,6 +5,7 @@ import shopCover from '../../assets/banner/shop.jpg'
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import { useState } from "react";
 import 'react-tabs/style/react-tabs.css';
+import ItemCard from "../../components/ItemCard/ItemCard";
 
 const Shop = () => {
     const [menu] = useMenu();
@@ -26,7 +27,13 @@ const Shop = () => {
                     <Tab>Dogs</Tab>
                     <Tab>Birds</Tab>
                 </TabList>
-                <TabPanel></TabPanel>
+                <TabPanel>
+                    <div className="grid grid-cols-4 gap-6">
+                    {
+                        cats.map(item=> <ItemCard key={item.id} item={item}></ItemCard>)
+                    }
+                    </div>
+                </TabPanel>
                 <TabPanel></TabPanel>
                 <TabPanel></TabPanel>
             </Tabs>

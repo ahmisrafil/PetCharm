@@ -3,7 +3,7 @@ import logo from "../../assets/icons/logo.png"
 
 const Footer = () => {
     return (
-        <footer className="footer p-10 bg-base-200 text-base-content">
+        <footer className="footer p-10 bg-orange-50 text-base-content">
             <nav className='ml-10'>
                 <img src={logo} className='h-16 -ml-6 -mt-6' />
                 <h3 className='text-[#908F8D]'>Join our social channels to <br />get updates about our grand <br /> offers.</h3>
