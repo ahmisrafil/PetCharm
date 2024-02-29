@@ -6,6 +6,7 @@ import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import { useState } from "react";
 import 'react-tabs/style/react-tabs.css';
 import ItemCard from "../../components/ItemCard/ItemCard";
+import ShopTab from "./ShopTab";
 
 const Shop = () => {
     const [menu] = useMenu();
@@ -28,25 +29,13 @@ const Shop = () => {
                     <Tab>Birds</Tab>
                 </TabList>
                 <TabPanel>
-                    <div className="grid grid-cols-4 gap-6">
-                    {
-                        cats.map(item=> <ItemCard key={item.id} item={item}></ItemCard>)
-                    }
-                    </div>
+                    <ShopTab items={cats}></ShopTab>
                 </TabPanel>
                 <TabPanel>
-                <div className="grid grid-cols-4 gap-6">
-                    {
-                        dogs.map(item=> <ItemCard key={item.id} item={item}></ItemCard>)
-                    }
-                    </div>
+                <ShopTab items={dogs}></ShopTab>
                 </TabPanel>
                 <TabPanel>
-                <div className="grid grid-cols-4 gap-6">
-                    {
-                        birds.map(item=> <ItemCard key={item.id} item={item}></ItemCard>)
-                    }
-                    </div>
+                <ShopTab items={birds}></ShopTab>
                 </TabPanel>
             </Tabs>
         </div>
