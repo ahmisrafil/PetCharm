@@ -14,7 +14,7 @@ const Shop = () => {
     const birds = menu.filter(item => item.category === 'Birds');
     const [tabIndex, setTabIndex] = useState(0);
     return (
-        <div className='mx-32'>
+        <div className='mx-32 mb-28'>
             <Helmet>
                 <title>PetCharm | Shop</title>
             </Helmet>
@@ -34,8 +34,20 @@ const Shop = () => {
                     }
                     </div>
                 </TabPanel>
-                <TabPanel></TabPanel>
-                <TabPanel></TabPanel>
+                <TabPanel>
+                <div className="grid grid-cols-4 gap-6">
+                    {
+                        dogs.map(item=> <ItemCard key={item.id} item={item}></ItemCard>)
+                    }
+                    </div>
+                </TabPanel>
+                <TabPanel>
+                <div className="grid grid-cols-4 gap-6">
+                    {
+                        birds.map(item=> <ItemCard key={item.id} item={item}></ItemCard>)
+                    }
+                    </div>
+                </TabPanel>
             </Tabs>
         </div>
     );
