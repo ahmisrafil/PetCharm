@@ -9,7 +9,7 @@ const FeaturedItems = () => {
             .then(res => res.json())
             .then(data=>{
                 const popular = data.filter(product=> product.tag === "popular")
-                    setItems(popular)
+                    setItems(popular);
                 })
     }, [])
     console.log(items);

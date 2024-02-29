@@ -4,6 +4,7 @@ import Cover from "../../components/Shared/Cover";
 import shopCover from '../../assets/banner/shop.jpg'
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import { useState } from "react";
+import 'react-tabs/style/react-tabs.css';
 
 const Shop = () => {
     const [menu] = useMenu();
@@ -16,14 +17,16 @@ const Shop = () => {
             <Helmet>
                 <title>PetCharm | Shop</title>
             </Helmet>
-            <div className='mt-20'>
+            <div className='mt-20 my-20'>
                 <Cover img={shopCover} title={'Shop Pet Accessories'}></Cover>
             </div>
-            <Tabs defaultIndex={1} onSelect={(index) => console.log(index)}>
+            <Tabs defaultIndex={1} onSelect={(index) => setTabIndex(index)}>
                 <TabList>
-                    <Tab>Title 1</Tab>
-                    <Tab>Title 2</Tab>
+                    <Tab>Cats</Tab>
+                    <Tab>Dogs</Tab>
+                    <Tab>Birds</Tab>
                 </TabList>
+                <TabPanel></TabPanel>
                 <TabPanel></TabPanel>
                 <TabPanel></TabPanel>
             </Tabs>
