@@ -5,7 +5,7 @@ import MenuItem from "../../../components/Shared/MenuItem";
 
 const OfferCategory = ({items, title, img}) => {
     return (
-        <div className='pt-8 my-32'>
+        <div className='pt-8 mb-32'>
             { title && <Cover img={img} title={title}></Cover>}
             <div className="grid md:grid-cols-2 gap-10 my-10">
                 {
@@ -17,7 +17,7 @@ const OfferCategory = ({items, title, img}) => {
             </div>
             <div className="flex justify-center">
             <Link to={`/order/${title}`}>
-            <button className="btn btn-outline border-0 border-b-4 mt-4">Order Now</button>
+            <button className="btn btn-outline border-0 border-b-4 mt-4 hover:bg-orange-600">Order Now</button>
             </Link>
             </div>
         </div>
