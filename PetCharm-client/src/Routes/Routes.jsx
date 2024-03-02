@@ -25,7 +25,7 @@ import Login from "../pages/Login/Login";
           element: <Offers></Offers>
         },
         {
-          path: 'shop',
+          path: 'shop/:category',
           element: <Shop></Shop>
         },
         {

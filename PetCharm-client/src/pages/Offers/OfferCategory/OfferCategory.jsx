@@ -16,7 +16,7 @@ const OfferCategory = ({items, title, img}) => {
                 }
             </div>
             <div className="flex justify-center">
-            <Link to={`/order/${title}`}>
+            <Link to={`/shop/${title}`}>
             <button className="btn btn-outline border-0 border-b-4 mt-4 hover:bg-orange-600">Order Now</button>
             </Link>
             </div>
